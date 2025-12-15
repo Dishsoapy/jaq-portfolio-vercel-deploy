@@ -1,0 +1,17 @@
+h1#Dishsoap{
+    margin-top: 15%;
+    color: #ecebed;
+    text-shadow: #FFF 0px 0px 5px, 
+        #FFF 0px 0px 10px,
+        #110808 0px 0px 15px,
+        #dfdbde 0px 0px 20px,
+        #242de9 0px 0px 30px,
+        #FF2D95 0px 0px 40px,
+        #FF2D95 0px 0px 50px,
+        #FF2D95 0px 0px 75px; 
+}
+
+img#Sprout{
+    width: 25em;
+    height: auto;
+}
