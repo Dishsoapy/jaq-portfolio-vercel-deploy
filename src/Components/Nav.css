@@ -1,4 +1,13 @@
 .Nav{
-    text-shadow: 3px 2px 5px #2f00ff;
+    text-shadow: 3px 2px 5px #5333e3;
     font-size: 1.5em;
+}
+
+.Downloaded:hover{
+    color: red;
+}
+
+.disabled {
+  color: grey;
+  pointer-events: none;
 }

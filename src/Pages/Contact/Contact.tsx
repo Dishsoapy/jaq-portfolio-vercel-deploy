@@ -1,8 +1,9 @@
 import React, { useState } from "react";
 import './Contact.css'
-import gitImg from '../../assets/Icons/github.png'
-import instaImg from '../../assets/Icons/instagram.png'
-import linkdImg from '../../assets/Icons/linkedin.png'
+import gitIcon from '../../assets/Icons/github.png'
+import instaIcon from '../../assets/Icons/instagram.png'
+import linkdIcon from '../../assets/Icons/linkedin.png'
+import discordIcon from '../../assets/Icons/discord.png'
 
 const Contact: React.FC = () => {
     const [formData, setFormData] = useState({
@@ -64,13 +65,16 @@ const Contact: React.FC = () => {
                 </div>
                <div className="Social">
                     <a href="https://www.instagram.com/j.alexandre.jo" target="_blank">
-                        <img src={instaImg} alt="Instagram Icon"></img>
+                        <img src={instaIcon} alt="Instagram Icon"/>
                     </a>
                     <a href="https://github.com/Dishsoapy" target="_blank">
-                        <img src={gitImg} alt="Github Icon"></img>
+                        <img src={gitIcon} alt="Github Icon"/>
                     </a>
                     <a href="https://www.linkedin.com/in/jaqortiz/" target="_blank">
-                        <img src={linkdImg} alt="LinkedIn Icon"></img>
+                        <img src={linkdIcon} alt="LinkedIn Icon"/>
+                    </a>
+                    <a href="https://discord.com/users/135169894030245889" target="_blank">
+                        <img src={discordIcon} alt="Discord Icon"/>
                     </a>
                </div>
             </div>

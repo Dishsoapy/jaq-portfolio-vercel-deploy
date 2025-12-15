@@ -1,17 +1,55 @@
-h1#Dishsoap{
-    margin-top: 15%;
-    color: #ecebed;
-    text-shadow: #FFF 0px 0px 5px, 
-        #FFF 0px 0px 10px,
-        #110808 0px 0px 15px,
-        #dfdbde 0px 0px 20px,
-        #242de9 0px 0px 30px,
-        #FF2D95 0px 0px 40px,
-        #FF2D95 0px 0px 50px,
-        #FF2D95 0px 0px 75px; 
+.Home {
+    text-align: center;
 }
 
-img#Sprout{
+h1#Website-Name{
+    margin: 10% auto 0% auto;
+    color: #ecebed;
+    text-shadow: #161518 0px 0px 5px, 
+        #272727 0px 0px 10px,
+        #0b0707 0px 0px 15px,
+        #dfdbde 0px 0px 20px,
+        #242de9 0px 0px 30px,
+        #f1f8f6 0px 0px 40px,
+        #4b5d96 0px 0px 50px,
+        #16f1d4 0px 0px 75px; 
+}
+
+h2#Random-Text {
+    margin-top: 2em;
+    color: #ecebed;
+    text-shadow: #161518 0px 0px 5px, 
+        #272727 0px 0px 10px,
+        #0b0707 0px 0px 15px,
+        #dfdbde 0px 0px 20px,
+        #242de9 0px 0px 30px,
+        #f1f8f6 0px 0px 40px,
+        #4b5d96 0px 0px 50px,
+        #16f1d4 0px 0px 75px; 
+    display: inline-block;
+}
+
+img#Sprout {
     width: 25em;
     height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+p {
+    color: #ecebed;
+    margin-top: 1em;
+}
+
+.cursor {
+    display: inline-block;
+    margin-left: 5px;
+    color: #ecebed;
+    animation: blink 0.6s infinite;
+}
+
+@keyframes blink {
+    0% { opacity: 1; }
+    50% { opacity: 0; }
+    100% { opacity: 1; }
 }

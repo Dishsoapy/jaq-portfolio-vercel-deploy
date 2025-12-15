@@ -1,10 +1,15 @@
 import './About.css';
+import mamboGif from '../../assets/Gifs/mambo.gif'
 
 export function About() {
     return (
         <>
-            <h2>My name is Jaq Alexandre Joshua Ortiz</h2>
-            <h3>Aspiring Software Engineer</h3>
+            <div className="Inline">
+                <img src={mamboGif} alt="Mambo gif" className="mambo"/>
+                <h2 id='My-Name'>My name is Jaq Alexandre Joshua Ortiz</h2>
+                <img src={mamboGif} alt="Mambo gif" className="mambo"/>
+            </div>
+                <h3 id='title'>Aspiring Software Engineer</h3>
             <div className='About'>
                 <p>I graduated with my Bachelors of Science in Computer Science</p>
                 <p>from the <a id='UNLV' href='https://www.unlv.edu' target='_blank'>University of Las Vegas Nevada</a> as of May 2023.</p>

@@ -85,7 +85,7 @@ p#Contact {
 
 .Social{
     max-width: 500px;
-    margin: 10% 0 auto 0;
+    margin: 5% auto;
     display: flex;
     flex-direction: column;
 }
