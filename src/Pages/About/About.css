@@ -22,7 +22,9 @@
 
 .About img{
     width: 10em;
+    max-width: 100%;
     height: auto;
+    overflow: hidden;
 }
 
 a#UNLV {
