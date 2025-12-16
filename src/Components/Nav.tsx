@@ -1,14 +1,7 @@
 import {Link} from 'react-router-dom'
-import { useState } from 'react'
 import './Nav.css'
-import myResume from '../assets/Resume/Resume.pdf'
 
 export function Navbar(){
-    const [resumeDownloaded, setResumeDownloaded] = useState(false);
-
-    const resumeClicked = () => {
-        setResumeDownloaded(true);
-    }
 
     return(
         <div className='Nav'>
@@ -24,11 +17,7 @@ export function Navbar(){
             <Link to ='/Personal'>
                 <a> Personal </a>
             </Link>| 
-            <a
-            href={resumeDownloaded ? undefined : myResume}
-            download={resumeDownloaded ? undefined : "JaqO-Resume.pdf"}
-            className={`Downloaded ${resumeDownloaded ? "disabled" : ""}`}
-            onClick={resumeDownloaded ? (e) => e.preventDefault() : resumeClicked}> Resume </a>
+            <a id='Resume' href='https://github.com/Dishsoapy/Resume' target='_blank' rel='noopener noreferrer'>Resume</a>
         </div>   
     )
 }

@@ -25,7 +25,7 @@ export function Personal(){
 
     return (
         <>
-            <div className='Flex-Container'>
+            <div className='Personal'>
                     <div className="Section Watches">
                         <h3>Watch Collection</h3>
                         <ul>
@@ -83,12 +83,17 @@ export function Personal(){
             <div className="Section Gallery">
                 <h3>Gallery</h3>
                 <p>A sneak peak into my personal life</p>
-                <img src={jachyonImg} alt='Gpd and their assistant standing side by side'/>
-                <img src={raftingImg} alt='My Friends and I rafting in Colorado'/>
-                <img src={carImg} alt='A picture of my blue carolla hatchback'/>
-                <img src={selfImg} alt='A picture of myself'/>
-                <img src={JCPennyImg} alt='A JC Penny shoot with my friends'/>
-                <img src={coupleImg} alt='A picture of my girlfriend and I'/>
+                <div className='Images-Container'>
+                    <a href='https://youtu.be/WdbRb2ksX7s?si=cC-XgkEeVYCLdRZ6' target='_blank' rel='noopener noreferrer'>
+                        <img src={jachyonImg} 
+                        alt='A picutre of myself edited on a half-life scientist standing next to chibi Agnes Tachyon'/>
+                    </a>
+                    <img src={raftingImg} alt='My Friends and I rafting in Colorado'/>
+                    <img src={carImg} alt='A picture of my blue carolla hatchback'/>
+                    <img src={selfImg} alt='A picture of myself'/>
+                    <img src={JCPennyImg} alt='A JC Penny shoot with my friends'/>
+                    <img src={coupleImg} alt='A picture of my girlfriend and I'/>
+                </div>
             </div>
         </>
     )

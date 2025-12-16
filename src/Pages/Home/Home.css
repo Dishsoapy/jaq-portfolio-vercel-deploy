@@ -1,9 +1,11 @@
 .Home {
-    text-align: center;
+    display:inline-flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 100%;
 }
 
-h1#Website-Name{
-    margin: 10% auto 0% auto;
+.Home h1{
     color: #ecebed;
     text-shadow: #161518 0px 0px 5px, 
         #272727 0px 0px 10px,
@@ -13,9 +15,10 @@ h1#Website-Name{
         #f1f8f6 0px 0px 40px,
         #4b5d96 0px 0px 50px,
         #16f1d4 0px 0px 75px; 
+    margin-top: 25%;
 }
 
-h2#Random-Text {
+.Home h2 {
     margin-top: 2em;
     color: #ecebed;
     text-shadow: #161518 0px 0px 5px, 
@@ -27,21 +30,22 @@ h2#Random-Text {
         #4b5d96 0px 0px 50px,
         #16f1d4 0px 0px 75px; 
     display: inline-block;
+    position: relative;
+    height: 1.5em;
 }
 
-img#Sprout {
+.Home img {
     width: 25em;
     height: auto;
-    display: block;
     margin: 0 auto;
 }
 
-p {
+p{
     color: #ecebed;
     margin-top: 1em;
 }
 
-.cursor {
+.cursor{
     display: inline-block;
     margin-left: 5px;
     color: #ecebed;

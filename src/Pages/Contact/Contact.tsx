@@ -44,10 +44,10 @@ const Contact: React.FC = () => {
 
     return (
         <>
-            <div className="Flex-container">
+            <div className="Contact">
                 <div className="Form">
-                    <h2 id="Contact">Contact Me</h2>
-                    <form onSubmit={handleSubmit} className="Contact">
+                    <h2>Contact Me</h2>
+                    <form onSubmit={handleSubmit}>
 
                             <label htmlFor="name">Full Name</label>
                             <input type="text" id="name" name="name" value={formData.name} onChange={handleChange} required/>
@@ -64,16 +64,16 @@ const Contact: React.FC = () => {
                     </form>
                 </div>
                <div className="Social">
-                    <a href="https://www.instagram.com/j.alexandre.jo" target="_blank">
+                    <a href="https://www.instagram.com/j.alexandre.jo" target="_blank" rel='noopener noreferrer'>
                         <img src={instaIcon} alt="Instagram Icon"/>
                     </a>
-                    <a href="https://github.com/Dishsoapy" target="_blank">
+                    <a href="https://github.com/Dishsoapy" target="_blank" rel='noopener noreferrer'>
                         <img src={gitIcon} alt="Github Icon"/>
                     </a>
-                    <a href="https://www.linkedin.com/in/jaqortiz/" target="_blank">
+                    <a href="https://www.linkedin.com/in/jaqortiz/" target="_blank" rel='noopener noreferrer'>
                         <img src={linkdIcon} alt="LinkedIn Icon"/>
                     </a>
-                    <a href="https://discord.com/users/135169894030245889" target="_blank">
+                    <a href="https://discord.com/users/135169894030245889" target="_blank" rel='noopener noreferrer'>
                         <img src={discordIcon} alt="Discord Icon"/>
                     </a>
                </div>

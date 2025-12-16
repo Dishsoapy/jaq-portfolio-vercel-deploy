@@ -1,29 +1,26 @@
-.About {
-    display: inline;
+.About{
+    display: inline-flex;
+    flex-direction: column;
+    max-width: 100%;
 }
 
 .Inline {
     display: inline-flex;
     align-items: center;
     justify-content: center;
-    gap: 3em; 
+    gap: 2em; 
 }
 
-.About{
-   text-shadow: 4px 3px 10px black; 
+.Description{
+   text-shadow: 4px 3px 10px black;
+   display: inline;
 }
 
-h2#My-Name{
-    margin: 10% 0 0 0;
+.Inline h2 , h3{
     text-shadow: 4px 3px 10px black;
 }
 
-h3#title{
-    margin-bottom: 5%;
-    text-shadow: 4px 3px 10px black;
-}
-
-.mambo {
+.About img{
     width: 10em;
     height: auto;
 }

@@ -1,13 +1,13 @@
 .Nav{
-    text-shadow: 3px 2px 5px #5333e3;
-    font-size: 1.5em;
+  text-shadow: 3px 2px 5px #5333e3;
+  font-size: 1.5em;
+  display: flex;
+  gap: 0.5em;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
-.Downloaded:hover{
-    color: red;
-}
-
-.disabled {
-  color: grey;
-  pointer-events: none;
+.Nav a#Resume:hover{
+  color: rgb(64, 253, 22);
+  transition: 0.25s ease;
 }

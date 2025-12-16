@@ -3,8 +3,8 @@ import myImage from '../../assets/Images/sprout-drawing.png'
 import { useEffect, useState } from 'react';
 
 export function Home(){
-    const texts = ["Software Developer", "Ametuer Photographer",
-        "Watch Collector", "Casual Gamer", "Owner of this Website"];
+    const texts = ["Software Developer", "Novice Photographer",
+        "Watch Collector", "Casual Gamer"];
     const [displayText, setDisplayText] = useState("");
     const [textIndex, setTextIndex] = useState(0);
     const [charIndex, setCharIndex] = useState(0);
@@ -34,12 +34,12 @@ export function Home(){
 
     return(
         <div className='Home'>
-            <h1 id='Website-Name'>Dishsoap.dev</h1>
-            <h2 id='Random-Text'>
+            <h1>Dishsoap.dev</h1>
+            <h2>
                 {displayText}
                 <span className="cursor">|</span>
             </h2>
-            <img id='Sprout' src={myImage} alt='Drawing made by my lovely girlfriend'></img>
+            <img src={myImage} alt='Drawing made by my lovely girlfriend'></img>
             <p>Learning something new everyday </p>
         </div>
     )

@@ -4,7 +4,7 @@ import './Layout.css';
 
 export function Layout() {
     return(
-        <>
+        <div className="Layout">
             <div className="Navbar">
                 <Navbar/>
             </div>
@@ -13,6 +13,6 @@ export function Layout() {
                     <Outlet/>
                 </main>
             </div>
-        </>
+        </div>
     )
 }

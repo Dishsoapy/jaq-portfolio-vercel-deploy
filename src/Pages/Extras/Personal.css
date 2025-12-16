@@ -1,15 +1,14 @@
-.Flex-Container{
+.Personal{
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
-    align-items: center;
-    height: auto;
-    padding: 2rem;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding:2rem;
     gap: 2rem;
 }
 
 .Section{
-    width: 80%;
+    max-width: 100%;
     padding: 1.5rem;
     background: #ebc0f0;
     background: linear-gradient(0deg,rgba(235, 192, 240, 0.75) 0%, #7d3da8bf 30%, rgba(16, 16, 20, 0.88) 80%);
@@ -21,10 +20,25 @@
 
 .Section ul{
     list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
 }
 
 .Section li{
     padding: 0.5em;
+}
+
+.Section h3{
+    margin-bottom: 1rem;
+    color: #e6e0e0;
+    text-shadow: 2px 2px 9px #2c0ad4;
+}
+
+.Watches{
+    background-color: rgb(2, 18, 240);
 }
 
 .Watches a{
@@ -36,24 +50,24 @@
     color: #d9f029;
 }
 
+.Games{
+    background-color: #6fe7a9;
+}
+
 .Video-Game{
     color: rgb(97, 243, 119);
     text-shadow: 2px 2px 9px #ffd900;
 }
 
 .Board-Game{
-    color: rgb(236, 121, 121);
+    color: rgb(208, 236, 0);
     text-shadow: 2px 2px 9px #070600;
-}
-
-.Section h3{
-    margin-bottom: 1rem;
-    color: #e6e0e0;
-    text-shadow: 2px 2px 9px #2c0ad4;
 }
 
 .Inline-Header{
     display: inline-flex;
+    flex-wrap: wrap;
+    justify-content: center;
     gap: 0.5em;
 }
 
@@ -68,12 +82,32 @@
 }
 
 .Gallery{
-    margin: 0% auto;
+    margin: auto;
+    max-width: 80%;
+    display: flex;
+    flex-direction: column;
+    background-color: #fbf052;
+    justify-content: center;
+}
+
+.Images-Container{
+    display: flex;
+    flex-wrap: wrap;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+    border-radius: 6px;
+    justify-content: space-evenly;
 }
 
 .Gallery img{
-    width: 300px;
-    height: 300px;
+    width: 40%;
+    height: auto;
     object-fit: contain;
-    padding: 5px;
+    padding: 0.8em;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.Gallery img:hover{
+    transform: scale(1.10);
+    box-shadow: 0 8px 20px(rgba(0, 0, 0, 0.3));
+    z-index: 2;
 }

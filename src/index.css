@@ -10,8 +10,9 @@
 
   color-scheme: light dark;
   color: rgba(255, 255, 255, 0.87);
-  background: #ebc0f0;
   background: linear-gradient(180deg, rgba(235, 192, 240, 0.75) 0%, rgba(125, 61, 168, 0.75) 30%, rgba(16, 16, 20, 0.88) 80%);
+  background-repeat: no-repeat;
+  background-size: 100%;
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -33,11 +34,11 @@ a:hover {
 body {
   margin: 0;
   min-width: 320px;
-  min-height: 100vh;
+  min-height: 100dvh;
 }
 
 h1 {
-  font-size: 3.2em;
+  font-size: 2em;
   line-height: 1.1;
 }
 

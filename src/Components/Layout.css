@@ -1,4 +1,8 @@
+.Layout{
+    display: flex;
+    flex-direction: column;
+}
+
 .Navbar{
-    display: inline;
-    justify-content: center;
+    max-height: 10%;
 }
