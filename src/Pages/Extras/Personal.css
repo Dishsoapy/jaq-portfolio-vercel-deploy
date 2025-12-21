@@ -71,6 +71,38 @@
     gap: 0.5em;
 }
 
+.Websites{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    max-width: 80%;
+    margin-bottom: 1em;
+}
+
+.Website-Container{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.Site-Link{
+    display: flex;
+    flex-direction: column;
+}
+
+.Websites a{
+    color: #40e7ce;
+    margin-bottom: 5%;
+    text-decoration: solid underline rgb(214, 163, 33) 2px;
+}
+
+.Websites a:hover{
+    transition: 0.3s ease;
+    color: #e9e622;
+}
+
 .fade-in{
     opacity: 1;
     transition: opacity 0.5s ease-in;

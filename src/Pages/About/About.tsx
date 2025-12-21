@@ -13,8 +13,8 @@ export function About() {
       <div className="Description">
         <p>
           I graduated from the University of Las Vegas Nevada with my Bachelors
-          Degree in Computer Science as of May 2023. My goal is to keep on
-          making meaningful projects where I can learn something and hone my
+          Degree in Computer Science as of May 2023. My goal is to make
+          meaningful projects where I can learn new technologies and hone my
           skills as a developer. That, and to make stuff that makes my life
           easier and has my friends say, "Damn Josh, that's pretty cool."
         </p>
