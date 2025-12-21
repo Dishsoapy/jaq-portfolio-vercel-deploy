@@ -15,10 +15,20 @@
 .Description{
    text-shadow: 4px 3px 10px black;
    display: inline;
+   line-height: 2.5em;
 }
 
 .Inline h2 , h3{
     text-shadow: 4px 3px 10px black;
+    color: #ecebed;
+    text-shadow: #161518 0px 0px 5px, 
+        #272727 0px 0px 10px,
+        #0b0707 0px 0px 15px,
+        #dfdbde 0px 0px 20px,
+        #242de9 0px 0px 30px,
+        #f1f8f6 0px 0px 40px,
+        #4b5d96 0px 0px 50px,
+        #16f1d4 0px 0px 75px; 
 }
 
 .About img{
@@ -28,24 +38,7 @@
     overflow-x: hidden;
 }
 
-a#UNLV {
-    color: red;
-}
-
-a#UNLV:hover {
-    color: rgb(255, 183, 195);
-}
-
-#Novibes {
+#NoVibes{
     color: rgb(31, 247, 31);
     text-shadow: 4px 2px 10px #FFF9F7;
-}
-
-#VibeCoding {
-    color: red;
-}
-
-#VibeCoding:hover {
-    color: rgb(229, 134, 134);
-    text-decoration: line-through rgb(255, 0, 0) 2px;
 }

@@ -1,28 +1,36 @@
-import './About.css';
-import mamboGif from '../../assets/Gifs/mambo.gif'
+import "./About.css";
+import mamboGif from "../../assets/Gifs/mambo.gif";
 
 export function About() {
-    return (
-        <div className='About'>
-            <div className="Inline">
-                <img src={mamboGif} alt="Mambo gif"/>
-                <h2 id='My-Name'>My name is Jaq Alexandre Joshua Ortiz</h2>
-                <img src={mamboGif} alt="Mambo gif"/>
-            </div>
-                <h3 id='title'>Aspiring Software Engineer</h3>
-            <div className='Description'>
-                <p>I graduated with my Bachelors of Science in Computer Science</p>
-                <p>from the <a id='UNLV' href='https://www.unlv.edu' target='_blank' rel='noopener noreferrer'>University of Las Vegas Nevada</a> as of May 2023.</p>
-                <p>My goal as a developer is to create good looking web pages and</p>
-                <p>expand my knowledge and skillset in front-end developement</p>
-                <p>...</p>
-                <p>Also might be worth mentioning given how programming has changed over the past few years</p>
-                <p id='Novibes'>I am not a vibe coder</p>
-                <p>I'm not against using AI to help with the developement process, but I believe</p>
-                <p>that a developer should be actively involved in the developement process (actually write some code)</p>
-                <p>instead of <a id='VibeCoding' href='https://www.reddit.com/r/OutOfTheLoop/comments/1jfwxxw/whats_up_with_vibe_coding/' target='_blank' rel='noopener noreferrer'
-                >whispering sweet nothings to ChatGPT</a> in the hopes of generating something functional.</p>
-            </div>
-        </div>
-    )
+  return (
+    <div className="About">
+      <div className="Inline">
+        <img src={mamboGif} alt="Mambo gif" />
+        <h2 id="My-Name">My name is Jaq Alexandre Joshua Ortiz</h2>
+        <img src={mamboGif} alt="Mambo gif" />
+      </div>
+      <h3 id="title">Software Developer</h3>
+      <div className="Description">
+        <p>
+          I graduated from the University of Las Vegas Nevada with my Bachelors
+          Degree in Computer Science as of May 2023. My goal is to keep on
+          making meaningful projects where I can learn something and hone my
+          skills as a developer. That, and to make stuff that makes my life
+          easier and has my friends say, "Damn Josh, that's pretty cool."
+        </p>
+        <p>...</p>
+        <p>
+          Also, given the current state of Software Developement at the time of
+          writing this, I want to clarify that{" "}
+          <span id="NoVibes">I do not vibe code.</span> Don't get me wrong, I
+          think AI is a fantastic tool that we have at our disposal. However, I
+          believe it should used as an assistive tool, especially for seasoned
+          developers/engineers who already know what their doing. So until I've
+          garnered enough experience to be worthy of using AI as a part of my
+          workflow, I will venture forth with good 'ol Stack Overflow and
+          YouTube tutorials.
+        </p>
+      </div>
+    </div>
+  );
 }
