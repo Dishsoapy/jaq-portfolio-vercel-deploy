@@ -20,15 +20,10 @@ export function About() {
         </p>
         <p>...</p>
         <p>
-          Also, given the current state of Software Developement at the time of
-          writing this, I want to clarify that{" "}
-          <span id="NoVibes">I do not vibe code.</span> Don't get me wrong, I
-          think AI is a fantastic tool that we have at our disposal. However, I
-          believe it should used as an assistive tool, especially for seasoned
-          developers/engineers who already know what their doing. So until I've
-          garnered enough experience to be worthy of using AI as a part of my
-          workflow, I will venture forth with good 'ol Stack Overflow and
-          YouTube tutorials.
+          With that aside, my hobbies also include physical fitness (weight
+          lifting, distance jogging, etc.), cooking, photography, and playing
+          video games. I also like collecting watches, as in I like and buy
+          things that I think look cool.
         </p>
       </div>
     </div>
